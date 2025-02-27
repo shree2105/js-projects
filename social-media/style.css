@@ -1,0 +1,61 @@
+.cards{
+    
+    border-radius: 10px;
+    padding: 2cm;
+    color: white;
+    background-color:  hsl(0, 0%, 8%);
+}
+
+
+
+.container{
+    padding: 2cm;
+    background-color:black;
+    
+}
+
+p{
+    font-size: 14px;
+}
+h6{
+    color:  hsl(75, 94%, 57%);
+    font-weight: 400;
+}
+button{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    font-weight: 800;
+    height: 1.5cm;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+
+}
+button:hover{
+display: block;
+filter: drop-shadow(0 0 10px #fffdef);
+
+
+}
+@media screen and (max-width: 375px) {
+    .container {
+    padding: 10px;
+    }
+
+    .cards {
+        width: 100%; /* Ensure cards take full width */
+        margin: 10px 0;
+    }
+}
+    
+/* Desktop Styles (min-width: 1440px) */
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 40px;
+    }
+
+    .cards {
+        width: 28%; /* Adjust card width for desktop */
+    }
+}
